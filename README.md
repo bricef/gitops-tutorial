@@ -347,6 +347,10 @@ The commercial [Weave Cloud](https://www.weave.works/product/cloud/) agents will
 
 Flux won't automatially delete services that are running on the cluster but don't exist in the control repository. While that might seem like a good idea at first, this would not allow Flux to be deployed to to existing clusters, as it would immediately delete all running deployments as soon as installed! Instead, you'll have to manually delete resources after removing them from the control repository.
 
+**Custom Resource Definitions**
+
+Flux will play well with CRDs. If you have a CRD definition or a custom resource yaml in the control repository, then they will be applied to the cluster like any standard resources. 
+
 Further resources
 -----------------
 
