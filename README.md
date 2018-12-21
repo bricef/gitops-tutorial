@@ -265,7 +265,7 @@ index 8cd6c13..334dac9 100644
  metadata:
    name: podinfo
 +  annotations:
-+      flux.weave.works/tag.dotnet-load-tester: glob:*
++      flux.weave.works/tag.podinfo: glob:*
 +      flux.weave.works/automated: 'true'
  spec:
    replicas: 4
