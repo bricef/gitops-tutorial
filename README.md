@@ -14,7 +14,7 @@ In order to go through this tutorial, you'll need two things.
 
 ### 1. A Kubernetes cluster
 
-In order to conplete this tutorial, you will need a test kubernetes cluster. You have several options to quickly get a development cluster to test out Gitops.
+In order to complete this tutorial, you will need a test kubernetes cluster. You have several options to quickly get a development cluster to test out Gitops.
 
 You can use [Katacoda's Kubernetes playground](https://www.katacoda.com/courses/kubernetes/playground). This will allow you to access a small Kubernetes cluster on demand. The `kubectl` command line is set up by default and _should be used from the master node_.
 
