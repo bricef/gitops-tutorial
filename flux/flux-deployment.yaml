@@ -54,7 +54,7 @@ spec:
         # There are no ":latest" images for flux. Find the most recent
         # release or image version at https://quay.io/weaveworks/flux
         # and replace the tag here.
-        image: fluxcd/flux:1.14.2
+        image: fluxcd/flux:1.19.0
         imagePullPolicy: IfNotPresent
         resources:
           requests:
